@@ -1,0 +1,65 @@
+#root {
+    --background-color: ;
+}
+
+html {
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    font-family: Jura, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+
+    background-image: url("../images/Coasta_de_Azur_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.menu--main {
+    border: 0;
+    margin: 32px auto 32px auto;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+    width: 75%;
+
+    background-color: rgba(47, 241, 226, 0.5);
+
+    border-radius: 16px;
+}
+
+.center-text--main {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 90px;
+    font-weight: bolder;
+
+    text-align: center;
+
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 2px;
+}
+
+.footer__div {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
