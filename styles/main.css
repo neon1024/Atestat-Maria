@@ -13,6 +13,12 @@ html {
     color: #ffffff;
 }
 
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
 p {
     border: 0;
     margin: 0;
